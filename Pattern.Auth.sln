@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Auth.Facebook.Andro
 EndProject
 Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Pattern.Auth.Facebook.NuGet", "Pattern.Auth.Facebook.NuGet\Pattern.Auth.Facebook.NuGet.nuproj", "{B0482899-A511-4E1A-AA66-1F87E2E73E8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Auth.Facebook", "Pattern.Auth.Facebook\Pattern.Auth.Facebook.csproj", "{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,5 +29,9 @@ Global
 		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -36,6 +36,16 @@
       <Project>{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}</Project>
       <Name>Pattern.Auth.Facebook.iOS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Pattern.Auth.Facebook\Pattern.Auth.Facebook.csproj">
+      <Project>{BC27EEDB-CDF6-4123-AC96-9AB7260611A5}</Project>
+      <Name>Pattern.Auth.Facebook</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.0</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />

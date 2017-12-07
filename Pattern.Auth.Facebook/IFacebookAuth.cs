@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Pattern.Auth.Facebook
 {
-    public class Class1
+    public interface IFacebookAuth
     {
+        Task<string> Login(string[] permissions);
     }
 }
