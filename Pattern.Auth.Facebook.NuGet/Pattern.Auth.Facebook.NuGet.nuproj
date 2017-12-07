@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0482899-A511-4E1A-AA66-1F87E2E73E8A}</ProjectGuid>
+    <Description>Pattern.Auth.Facebook</Description>
+    <PackageId>Pattern.Auth.Facebook</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>aurelien</Authors>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Pattern.Auth.Facebook</RootNamespace>
+    <UsePartialTypes>false</UsePartialTypes>
+    <AssemblyName>Pattern.Auth.Facebook.NuGet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pattern.Auth.Facebook.Android\Pattern.Auth.Facebook.Android.csproj">
+      <Project>{9E22E630-8138-44A8-851A-8D71D00F087F}</Project>
+      <Name>Pattern.Auth.Facebook.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pattern.Auth.Facebook.iOS\Pattern.Auth.Facebook.iOS.csproj">
+      <Project>{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}</Project>
+      <Name>Pattern.Auth.Facebook.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
+</Project>

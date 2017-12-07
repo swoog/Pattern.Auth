@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Pattern.Auth.Facebook.Shared", "Pattern.Auth.Facebook.Shared\Pattern.Auth.Facebook.Shared.shproj", "{ED1EEA5F-1107-4E82-88E3-2F6AD182DB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Auth.Facebook.iOS", "Pattern.Auth.Facebook.iOS\Pattern.Auth.Facebook.iOS.csproj", "{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Auth.Facebook.Android", "Pattern.Auth.Facebook.Android\Pattern.Auth.Facebook.Android.csproj", "{9E22E630-8138-44A8-851A-8D71D00F087F}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "Pattern.Auth.Facebook.NuGet", "Pattern.Auth.Facebook.NuGet\Pattern.Auth.Facebook.NuGet.nuproj", "{B0482899-A511-4E1A-AA66-1F87E2E73E8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2C37BC-9D43-4E95-92F2-FBAFADD1B3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E22E630-8138-44A8-851A-8D71D00F087F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E22E630-8138-44A8-851A-8D71D00F087F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E22E630-8138-44A8-851A-8D71D00F087F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E22E630-8138-44A8-851A-8D71D00F087F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0482899-A511-4E1A-AA66-1F87E2E73E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
